@@ -22,7 +22,7 @@ body {
   font: 10pt Lato, "Open Sans", Merriweather, sans-serif, Arial, Helvetica;
   color: white;
   position: relative;
-  background: #0d0d0d url("img/nebula_dot-m.jpg") center center no-repeat;
+  background: #0d0d0d url(../img/nebula_dot-m.jpg) center center no-repeat;
   background-size: cover; }
   body .dot-m-container {
     min-height: 500px; }
@@ -65,7 +65,7 @@ footer#dot-m-footer {
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {
   body {
-    background: #0d0d0d url(img/nebula_dot-m.jpg) center bottom no-repeat; }
+    background: #0d0d0d url(../img/nebula_dot-m.jpg) center bottom no-repeat; }
   footer#dot-m-footer {
     height: 50px;
     padding-top: 15px; }
