@@ -7,7 +7,7 @@ body {
     font: $small-font $font;
     color: $white;
     position: relative;
-    background: darken($second-color, 15%) url(img/nebula_dot-m.jpg) center center no-repeat;
+    background: darken($second-color, 15%) url('img/nebula_dot-m.jpg') center center no-repeat;
     background-size: cover;
     
     .dot-m-container {
