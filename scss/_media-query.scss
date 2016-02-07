@@ -1,0 +1,26 @@
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+        background: darken($second-color, 15%) url(/img/nebula_dot-m.jpg) center bottom no-repeat;
+    }
+    
+    footer#dot-m-footer {
+        height: 50px;
+        padding-top: 15px;
+        
+        #image-props {
+            text-align: center;
+        }
+        
+        #copyright {
+            text-align: center;
+        }
+    } 
+}
+
+/*MEDIA QUERIES FOR THE SMALL DEVICES */
+@media only screen and (max-width: 992px) { 
+
+}

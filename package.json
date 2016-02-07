@@ -1,0 +1,19 @@
+{
+  "name": "dot-m-productions",
+  "version": "1.0.0",
+  "description": "dot m productions",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "\"dot",
+    "m",
+    "productions\"",
+    "music",
+    "sweet",
+    "beats"
+  ],
+  "author": "Nick Myers",
+  "license": "ISC"
+}

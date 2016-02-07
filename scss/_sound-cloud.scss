@@ -1,0 +1,12 @@
+/* Sound Cloud Styles */
+
+#sound-cloud {
+    min-height: 300px;
+    background-color: transparentize(darken($default-color, 20%), .40);
+    margin: 50px 0;
+    padding: 20px;
+    
+    iframe {
+        background-color: $second-color;
+    }
+}

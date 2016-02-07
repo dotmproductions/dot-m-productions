@@ -1,0 +1,17 @@
+footer#dot-m-footer {
+    background-color: transparentize(darken($default-color, 10%), .50);
+    border-top: 1px solid darken($default-color, 5%);
+    min-height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-top: 50px;
+    
+    a:hover {
+        color: darken($default-color, 20%);
+    }
+    
+    #image-props {
+        text-align: right;
+    }
+}
