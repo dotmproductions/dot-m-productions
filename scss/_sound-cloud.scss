@@ -1,10 +1,14 @@
 /* Sound Cloud Styles */
 
 #sound-cloud {
-    min-height: 300px;
+    -webkit-box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
     background-color: transparentize(darken($default-color, 20%), .40);
-    margin: 50px 0;
+    min-height: 300px;
+    margin: 50px auto;
     padding: 20px;
+    
     
     iframe {
         background-color: $second-color;

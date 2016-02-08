@@ -1,4 +1,7 @@
 footer#dot-m-footer {
+    -webkit-box-shadow: -1px -7px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -7px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px -7px 15px 0px rgba(0,0,0,0.75);
     background-color: transparentize(darken($default-color, 10%), .50);
     border-top: 1px solid darken($default-color, 5%);
     min-height: 100px;
@@ -6,6 +9,7 @@ footer#dot-m-footer {
     position: fixed;
     bottom: 0;
     padding-top: 50px;
+    
     
     a:hover {
         color: darken($default-color, 20%);

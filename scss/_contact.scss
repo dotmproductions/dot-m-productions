@@ -1,0 +1,19 @@
+.dot-m-contact {
+    background-color: transparentize($default-color, .50);
+    border-bottom: 1px solid darken($default-color, 5%);
+    min-height: 300px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    padding: 20px;
+    display: none;
+    -webkit-box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 9px 10px 15px 0px rgba(0,0,0,0.75);
+    
+    form input,
+    form textarea {
+        background-color: transparentize(darken($default-color, 15%), .50);
+        border: 1px solid darken($default-color, 17%);
+        color: $white;
+    }
+}

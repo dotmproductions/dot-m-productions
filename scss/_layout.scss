@@ -9,6 +9,7 @@ body {
     position: relative;
     background: darken($second-color, 15%) url(../img/nebula_dot-m.jpg) center center no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
     .dot-m-container {
         min-height: 500px;
