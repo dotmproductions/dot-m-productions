@@ -91,7 +91,7 @@ footer#dot-m-footer {
   body {
     background: #0d0d0d url(../img/nebula_dot-m.jpg) center bottom no-repeat; }
   footer#dot-m-footer {
-    height: 50px;
+    min-height: 50px;
     padding-top: 15px; }
     footer#dot-m-footer #image-props {
       text-align: center; }

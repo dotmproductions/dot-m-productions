@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="dotMApp">
 <head>
     <meta charset="UTF-8">
     <title>Dot M Productions</title>
@@ -30,33 +30,14 @@
       <section class="container">
          <div class="col-md-3"></div>
           <div id="sound-cloud" class="col-xs-12 col-md-6">
-            <iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/194600657&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+           <!--<iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/194600657&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
+            <dot-m-sound-cloud></dot-m-sound-cloud>
           </div>
       </section><!--/.sound-cloud-container -->
       
       <section class="container">
           <div class="dot-m-contact col-md-6 col-md-offset-3">
-              <form name="dotForm" method="POST" action="//formspree.io/dotmproductions@gmail.com">
-                  <div class="form-group">
-                      <label for="fullName">* Name:</label>
-                      <input name="firstName" type="text" class="form-control" id="first_name" placeholder="Cloud Strife" required/>
-                  </div>
-                  <div class="form-group">
-                      <label for="phone">Phone:</label>
-                      <input name="phoneNumber" type="tel" class="form-control" id="phone_number" placeholder="559-263-7320" />
-                  </div>
-                  <div class="form-group">
-                      <label for="email">* Email:</label>
-                      <input name="emailAddress" type="email" class="form-control" id="email" placeholder="cloudstrife@avalanche.com" required/>
-                  </div>
-                  <div class="form-group">
-                      <label for="messages">* Message:</label>
-                      <textarea name="message" class="form-control" id="comment_area" placeholder="leave a message here...BEEP!" required/></textarea>
-                  </div>
-                  <div class="form-group">
-                      <button class="btn btn-default" id="submit_button" type="submit">SEND</button>
-                  </div>
-              </form><!--/form -->
+              <dot-m-contact-form></dot-m-contact-form>
           </div><!--/.dot-m-contact -->
       </section><!--/.form-container -->
       
@@ -84,8 +65,11 @@
     <!-- Angular Scripts -->
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
+    <!-- Angular Custom Scripts -->
+    <script src="app/app.js"></script>
     <!-- Custom Scripts -->
     <script src="js/scripts.js"></script>
+    
     
 </body>
 </html>
