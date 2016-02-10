@@ -1,0 +1,14 @@
+a.sound-cloud-button {
+    display: block;
+    text-align: center;
+    color: $default-color;
+    padding: 10px 20px;
+    border: 2px solid $default-color;
+    background-color: transparent;
+    transition: all 200ms ease-in-out;
+}
+
+a.sound-cloud-button:hover {
+    color: $white;
+    background-color: darken($default-color, 5%);
+}
